@@ -1,13 +1,11 @@
-@import "../scss/pages/home";
-@import '../scss/default';
-@import '../scss/pages/topnav';
-@import '../scss/pages/footer';
-@import '../scss/pages/about';
-@import '../scss/pages/stats';
-@import '../scss//pages/stats';
-@import '../scss/pages/quoteRequest';
-@import '../scss/components/blogs';
-@import '../scss/components/card';
-@import '../scss//pages/services';
-@import '../scss//pages/contact';
-
+@use "../scss/pages/home";
+@use'../scss/default';
+@use'../scss/pages/topnav';
+@use'../scss/pages/footer';
+@use'../scss/pages/about';
+@use'../scss/pages/stats';
+@use'../scss/pages/quoteRequest';
+@use'../scss/components/blogs';
+@use'../scss/components/card';
+@use'../scss/pages/services';
+@use'../scss/pages/contact';

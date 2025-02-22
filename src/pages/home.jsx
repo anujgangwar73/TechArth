@@ -9,7 +9,7 @@ import slider_3 from '../assets/slider_3.jpg';
 import illustration from '../assets/illustration.jpg';
 import industry from '../assets/industry.jpg';
 import industry_welding from '../assets/industry_welding.jpg';
-import Scott_Gable from '../assets/scott_gable.jpg';
+import scott from '../assets/scott.jpg';
 import playpausebutton from '../assets/playpausebutton.gif';
 import Group5 from '../assets/group5.jpg';
 import building from '../assets/building.jpg';
@@ -149,7 +149,7 @@ const Home = () => {
                         <img src={industry_welding} />
                     </div>
                     <div className='small-ellipsis'>
-                        <img src={Scott_Gable} />
+                        <img src={scott} />
                     </div>
                     <div className='play-pause-button'>
                         <img src={playpausebutton} />
