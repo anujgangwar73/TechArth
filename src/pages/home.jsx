@@ -11,7 +11,7 @@ import industry from '../assets/industry.jpg';
 import industry_welding from '../assets/industry_welding.jpg';
 import scott from '../assets/scott.jpg';
 import playpausebutton from '../assets/playpausebutton.gif';
-import Group5 from '../assets/group5.jpg';
+import group5 from '../assets/group5.jpg';
 import building from '../assets/building.jpg';
 import LogoSlider from '../components/logoSlider';
 import SimpleImageSlider from "react-simple-image-slider";
@@ -156,7 +156,7 @@ const Home = () => {
                     </div>
                     <div className='text-svg-cont'>
                         <div className='svg'>
-                            <img src={Group5} />
+                            <img src={group5} />
                         </div>
                         <div className='text-cont'>
                             <div className='heading-text'>
