@@ -1,0 +1,183 @@
+$primary-color: #2D6D83;
+$text-color: white;
+
+.footer-cont {
+    background-color: $primary-color;
+    color: $text-color;
+    display: flex;
+    position: relative;
+
+    .container {
+        display: flex;
+        width: 100%;
+        padding: 30px;
+        padding-bottom: 20px;
+        flex-direction: column;
+        gap: 30px;
+
+        .footer-top {
+            display: flex;
+            align-content: center;
+            justify-content: space-between;
+
+            span {
+                color: #FFF;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+            }
+
+            .footer-logo-contact {
+                display: flex;
+                flex-direction: column;
+
+                .footer-logo {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+
+                    span {
+                        color: #FFF;
+                        font-family: Jura;
+                        font-size: 32px;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: normal;
+                        width: 220.222px;
+                        height: 37.221px;
+                        flex-shrink: 0;
+                    }
+
+                    span:last-child {
+                        color: #FFF;
+                        font-size: 20px;
+                        font-style: normal;
+                        font-weight: 300;
+                        line-height: normal;
+                    }
+                }
+
+                .footer-contact {
+                    p {
+                        display: flex;
+                        align-items: center;
+                        gap: 8px;
+                        color: #FFF;
+                        text-align: justify;
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;
+                    }
+                }
+            }
+
+            .footer-company-links {
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                margin-top: 45px;
+
+                div:first-child {
+                    color: #FFF;
+                    font-size: 22px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: normal;
+                }
+            }
+
+
+            .footer-industry-links {
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                margin-top: 45px;
+
+                div:first-child {
+                    color: #FFF;
+                    font-size: 22px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: normal;
+                }
+
+            }
+
+            .footer-subscribe-social {
+                display: flex;
+                gap: 20px;
+                flex-direction: column;
+                margin-top: 45px;
+
+                div:first-child {
+                    color: #FFF;
+                    font-size: 22px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: normal;
+                }
+
+                .subscribe-box {
+                    display: flex;
+                    border-radius: 7px;
+                    background: #FFF;
+
+                    input {
+                        background: #FFF;
+                        border-radius: 7px;
+                        border: 1px solid #FFF;
+                        margin-left: 5px;
+                    }
+                }
+
+                .footer-social {
+                    display: flex;
+                    flex-direction: column;
+                    row-gap: 5px;
+
+                    .social-icons {
+                        display: flex;
+                        gap: 5px;
+                        margin-left: -5px;
+                    }
+                }
+            }
+        }
+
+        .footer-bottom {
+            display: flex;
+            justify-content: space-between;
+
+            >div {
+                color: #FFF;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+            }
+        }
+    }
+
+    .bg-image {
+        position: absolute;
+        display: flex;
+        top: 150px;
+    }
+}
+
+// Responsive Styles
+@media (max-width: 768px) {
+    .footer-top {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-links {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+}

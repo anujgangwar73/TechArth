@@ -1,0 +1,89 @@
+.card-cont {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+    padding-top: 40px;
+    margin-top: 40px;
+    flex-wrap: wrap;
+    gap: 50px;
+    row-gap: 80px;
+
+    .card-content-cont {
+        display: flex;
+        position: relative;
+        // justify-content: center;
+        align-items: center;
+        gap: 30px;
+        width: 350px;
+        height: 455.439px;
+        flex-shrink: 0;
+        background: #FFF;
+        box-shadow: 0px 8px 4px 2px rgba(0, 0, 0, 0.25);
+        flex-direction: column;
+
+        .card-heading {
+            color: #000;
+            text-align: center;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 550;
+            line-height: 31px;
+            width: 250px;
+        }
+
+
+        .card-content-text {
+            color: #707070;
+            text-align: justify;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            width: 301.92px;
+            height: 98px;
+            flex-shrink: 0;
+        }
+    }
+
+    .inner-icon {
+        width: 59px;
+        height: 77px;
+        margin-top: 20px;
+        position: absolute;
+        top: 13%;
+        left: 49%;
+        transform: translate(-50%, -50%);
+    }
+
+    .outer-icon {
+        position: relative;
+        width: 123px;
+        height: 123px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .card-content-cont:hover .outer-icon svg circle {
+        fill: #2D6C80;
+    }
+
+    .arrow-icon-ellipsis {
+        position: relative;
+        margin-top: 10px;
+    }
+
+    .arrow-icon {
+        position: absolute;
+        top: 99%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .card-content-cont:hover .arrow-icon-ellipsis svg circle {
+        fill: #2D6C80;
+    }
+
+}
