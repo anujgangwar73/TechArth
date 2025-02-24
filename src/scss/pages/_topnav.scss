@@ -68,6 +68,8 @@
 
         .menu-icon {
             display: flex !important;
+            visibility: visible !important;
+            opacity: 1 !important;
         }
 
         >div:last-child {
