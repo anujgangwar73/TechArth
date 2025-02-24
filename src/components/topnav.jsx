@@ -49,7 +49,7 @@ const TopNav = () => {
                         <img src={logo} alt="Logo" />
                     </div>
                     <div className="close-icon" onClick={() => setIsSidebarOpen(false)}>
-                        <Icon path={mdiClose} size={1.5} />
+                        <Icon path={mdiClose} size={1.5} color={"black"} />
                     </div>
                 </div>
 
