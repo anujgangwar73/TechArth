@@ -1,13 +1,14 @@
 .quote-request-cont {
     display: flex;
     background: rgba(245, 245, 245, 0.46);
-    
+
     .quote-form-cont {
         padding: 40px;
         display: flex;
         flex-direction: column;
         gap: 10px;
         justify-content: center;
+        width: 70%;
 
         .heading-text {
             color: #000;
@@ -40,7 +41,6 @@
                 input {
                     border-radius: 5px;
                     background: #D9D9D9;
-                    // width: 200px;
                     flex: 1;
                     height: 40px;
                     flex-shrink: 0;
@@ -68,6 +68,45 @@
             background: rgba(45, 108, 128, 0.74);
             z-index: 1;
             pointer-events: none;
+        }
+    }
+}
+
+/* ======================= Mobile (max-width: 600px) ======================= */
+@media (max-width: 600px) {
+
+    .quote-request-cont {
+        display: flex;
+        background: rgba(245, 245, 245, 0.46);
+
+        .quote-form-cont {
+            padding: 20px;
+            width: 100%;
+
+            .heading-text {
+                font-size: 28px;
+                width: 100%;
+            }
+
+            .content-text {
+                font-size: 18px;
+                width: 100%;
+            }
+
+            .form-cont {
+                width: 100%;
+                flex-wrap: wrap;
+                gap: 15px;
+
+                .field-container {
+                    flex-wrap: wrap;
+                    gap: 15px;
+                }
+            }
+        }
+
+        .img-cont {
+            display: none;
         }
     }
 }

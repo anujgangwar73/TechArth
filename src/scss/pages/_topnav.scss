@@ -6,7 +6,7 @@
     position: fixed;
     top: 0;
     left: 0;
-    width: calc(100% - 20px)!important;
+    width: calc(100% - 20px) !important;
     background: #FFF;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     z-index: 100000;
@@ -67,7 +67,7 @@
         align-items: center;
 
         .menu-icon {
-            display: flex;
+            display: flex !important;
         }
 
         >div:last-child {
@@ -156,7 +156,7 @@
     height: 100vh;
     background: #fff;
     box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.2);
-    display: flex;
+    display: flex !important;
     flex-direction: column;
     transition: left 0.3s ease-in-out;
     z-index: 10000;
@@ -180,6 +180,7 @@
         }
 
         .close-icon {
+            display: block !important;
             cursor: pointer;
         }
 
