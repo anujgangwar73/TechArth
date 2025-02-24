@@ -2,27 +2,30 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 10px 10px 20px ;
+    padding: 10px 10px 10px 20px;
     position: fixed;
     top: 0;
     left: 0;
-    width: calc(100vw - 35px);  
-    flex-shrink: 0;
+    width: calc(100% - 20px)!important;
     background: #FFF;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    z-index: 10000;
-    // flex-wrap: wrap;
+    z-index: 100000;
 
     .logo {
+        display: flex;
+
         img {
             width: 173.5px;
             height: 83.774px;
-            flex-shrink: 0;
         }
     }
 
+    .menu-icon {
+        display: none;
+    }
+
     .top-nav-content {
-        display:flex;
+        display: flex;
         padding: 16px;
         align-items: center;
         gap: 82px;
@@ -36,15 +39,168 @@
             cursor: pointer;
             display: flex;
         }
-        
+
         .nav-content-text.active {
             color: #006F75;
             font-weight: 600;
         }
-        
+
         .nav-content-text.inactive {
             color: #666;
             font-weight: 400;
+        }
+    }
+
+    .nav-button {
+        margin-right: 40px;
+    }
+}
+
+/* ======================= Mobile (max-width: 600px) ======================= */
+@media (max-width: 600px) {
+
+    .logo-top-nav-cont {
+        flex-direction: row;
+        width: calc(100vw - 20px);
+        padding: 10px !important;
+        height: 36px;
+        align-items: center;
+
+        .menu-icon {
+            display: flex;
+        }
+
+        >div:last-child {
+            display: none;
+        }
+
+        .logo {
+
+            img {
+                width: 100px;
+                height: 40px;
+            }
+        }
+
+        .top-nav-content {
+            display: none;
+        }
+
+        .nav-button {
+            display: none;
+        }
+    }
+}
+
+
+/* ======================= Tablets (601px - 1024px) ======================= */
+@media (min-width: 601px) and (max-width: 1024px) {
+    .logo-top-nav-cont {
+        padding: 10px;
+        padding-left: 20px;
+        gap: 20px;
+        width: calc(100vw - 32px);
+
+        .logo {
+            display: flex;
+
+            img {
+                width: 130px;
+                height: 60px;
+            }
+        }
+
+        .menu-icon {
+            display: none;
+        }
+
+        .top-nav-content {
+            display: flex;
+            padding: 16px;
+            align-items: center;
+            gap: 82px;
+            row-gap: 20px;
+            flex-wrap: wrap;
+
+            .nav-content-text {
+                font-size: 22px;
+                font-style: normal;
+                line-height: normal;
+                cursor: pointer;
+                display: flex;
+            }
+
+            .nav-content-text.active {
+                color: #006F75;
+                font-weight: 600;
+            }
+
+            .nav-content-text.inactive {
+                color: #666;
+                font-weight: 400;
+            }
+        }
+
+        .nav-button {
+            margin-right: 20px !important;
+        }
+    }
+}
+
+//Sidebar navigation
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: -334px;
+    width: 250px;
+    height: 100vh;
+    background: #fff;
+    box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    transition: left 0.3s ease-in-out;
+    z-index: 10000;
+    padding: 20px;
+
+    &.open {
+        left: 0;
+    }
+
+    .sidebar-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .sidebar-logo {
+            display: flex;
+
+            img {
+                height: 70px;
+            }
+        }
+
+        .close-icon {
+            cursor: pointer;
+        }
+
+    }
+
+    .sidebar-content {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        padding-left: 0px;
+        gap: 20px;
+
+        .nav-content-text {
+            font-size: 22px;
+            cursor: pointer;
+        }
+
+        .button {
+            margin-top: 10px;
+            font-size: 18px !important;
+            width: fit-content;
         }
     }
 }

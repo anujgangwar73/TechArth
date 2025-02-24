@@ -49,10 +49,12 @@ const Footer = () => {
                         </span>
                     </div>
                     <div className="footer-subscribe-social">
-                        <div>Subscribe Now</div>
-                        <div className="subscribe-box">
-                            <input type="email" placeholder="info@abc.com" />
-                            <button><Icon path={mdiArrowRight} size={1} /></button>
+                        <div className="footer-subscribe">
+                            <div>Subscribe Now</div>
+                            <div className="subscribe-box">
+                                <input type="email" placeholder="info@abc.com" />
+                                <button><Icon path={mdiArrowRight} size={1} /></button>
+                            </div>
                         </div>
                         <div className="footer-social">
                             <span>Follow Us</span>
