@@ -38,11 +38,12 @@ const TopNav = () => {
             </div>
 
             <div className="menu-icon" onClick={() => setIsSidebarOpen(!isSidebarOpen)}>
-                <Icon path={mdiMenuOpen} size={2}  color={"blue"}/>
+                {!isSidebarOpen ? <Icon path={mdiMenuOpen} size={2} color={"black"} /> :
+                    <Icon path={mdiMenuClose} size={2} color={"black"} />}
             </div>
 
             {/* Sidebar for Mobile View */}
-            <div className={`sidebar ${isSidebarOpen ? "open" : ""  }`}>
+            <div className={`sidebar ${isSidebarOpen ? "open" : ""}`}>
                 <div className="sidebar-header">
                     <div className="sidebar-logo">
                         <img src={logo} alt="Logo" />
