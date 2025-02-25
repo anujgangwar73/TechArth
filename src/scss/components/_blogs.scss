@@ -60,7 +60,7 @@
             line-height: normal;
         }
 
-        >div:last-child {
+        >div:nth-child(3) {
             color: #707070;
             text-align: justify;
             font-size: 20px;
@@ -113,7 +113,7 @@
                 font-size: 24px;
             }
 
-            >div:last-child {
+            >div:nth-child(3) {
                 font-size: 18px;
             }
         }

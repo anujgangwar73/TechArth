@@ -204,7 +204,7 @@
 /* ======================= Mobile (max-width: 600px) ======================= */
 @media (max-width: 600px) {
     .about-cont {
-        margin-top: 57px;
+        margin-top: 55px;
         width: 100vw;
 
         .about-us-img-cont {
@@ -448,14 +448,14 @@
                 }
 
                 div:nth-child(1) {
-                    left: 100px;
-                    top: 60px;
+                    left: 20% !important;
+                    top: 12% !important;
                     z-index: 0;
                 }
 
                 div:nth-child(2) {
-                    top: 250px;
-                    right: 100px;
+                    top: 50% !important;
+                    left: 38% !important;
                     z-index: 2;
                 }
             }
