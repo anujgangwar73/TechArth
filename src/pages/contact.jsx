@@ -35,7 +35,7 @@ const Contact = () => {
           <div className='sub-cont'>
             <div className='icon-details-cont'>
               <div>
-                <Icon path={mdiEmailOutline} size={1} />
+                <Icon path={mdiEmailOutline} size={1} color={"black"} />
               </div>
               <div className='details-cont'>
                 <div>
@@ -49,13 +49,13 @@ const Contact = () => {
                 </div>
               </div>
             </div>
-          </div>
-          <div className='separator'>
+            <div className='separator'>
+            </div>
           </div>
           <div className='sub-cont'>
             <div className='icon-details-cont'>
               <div>
-                <Icon path={mdiPhoneOutline} size={1} />
+                <Icon path={mdiPhoneOutline} size={1} color={"black"} />
               </div>
               <div className='details-cont'>
                 <div>
@@ -66,13 +66,13 @@ const Contact = () => {
                 </div>
               </div>
             </div>
-          </div>
-          <div className='separator'>
+            <div className='separator'>
+            </div>
           </div>
           <div className='sub-cont'>
             <div className='icon-details-cont'>
               <div>
-                <Icon path={mdiMapMarkerOutline} size={1} />
+                <Icon path={mdiMapMarkerOutline} size={1} color={"black"} />
               </div>
               <div className='details-cont'>
                 <div>

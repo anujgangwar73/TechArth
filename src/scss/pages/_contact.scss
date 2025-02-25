@@ -94,13 +94,8 @@
         justify-content: center;
         padding: 60px 40px;
 
-        .separator {
-            width: 2px;
-            height: 100px;
-            background: #DADADA;
-        }
-
         .sub-cont {
+            display: flex;
 
             .icon-details-cont {
                 display: flex;
@@ -132,6 +127,12 @@
                         width: 250px;
                     }
                 }
+            }
+
+            .separator {
+                width: 2px;
+                height: 100px;
+                background: #DADADA;
             }
         }
 
@@ -198,14 +199,13 @@
             padding: 20px;
             flex-direction: column;
             gap: 20px;
-            overflow-x: hidden;
-
-            .separator {
-                width: 60%;
-                height: 2px;
-            }
 
             .sub-cont {
+                width: 100%;
+                gap: 20px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
 
                 .icon-details-cont {
                     gap: 15px;
@@ -224,6 +224,12 @@
                             font-size: 18px;
                         }
                     }
+                }
+
+                .separator {
+                    width: 100%;
+                    right: 20px;
+                    height: 2px;
                 }
             }
 
