@@ -149,15 +149,16 @@
         .teamwork-img {
 
             img {
-                height: 400px;
+                height: 300px;
             }
         }
 
         .linear-bg-text-cont {
             width: 60%;
             padding-left: 20px;
-            top: 257px;
-            height: 400px;
+            top: 208px;
+            height: 300px;
+            gap: 20px;
 
             .text-sm-heading {
                 font-size: 22px;
@@ -175,7 +176,7 @@
         .solution-details-cont {
             padding: 20px;
             gap: 30px;
-            margin-top: 20px;
+            margin-top: 10px;
 
             .solution-bg-text {
                 font-size: 60px;
@@ -208,7 +209,7 @@
                 align-items: center;
 
                 .icon-details-cont {
-                    gap: 15px;
+                    margin-left: 40px;
 
                     .details-cont {
                         display: flex;
