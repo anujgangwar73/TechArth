@@ -43,6 +43,8 @@ const Contact = () => {
                 </div>
                 <div>
                   info@techarth.com
+                </div>
+                <div>
                   career@techarth.in
                 </div>
               </div>
@@ -77,7 +79,10 @@ const Contact = () => {
                   Head Office
                 </div>
                 <div>
-                  14/A, Queen Street City Town New York, US
+                  14/A, Queen Street City
+                </div>
+                <div>
+                  Town New York, US
                 </div>
               </div>
             </div>

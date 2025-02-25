@@ -121,7 +121,8 @@
                         user-select: none;
                     }
 
-                    >div:last-child {
+                    >div:nth-child(2),
+                    >div:nth-child(3) {
                         color: #000;
                         text-align: justify;
                         font-size: 22px;
@@ -218,7 +219,8 @@
                             font-size: 22px;
                         }
 
-                        >div:last-child {
+                        >div:nth-child(2),
+                        >div:nth-child(3) {
                             font-size: 18px;
                         }
                     }
