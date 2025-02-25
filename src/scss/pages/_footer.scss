@@ -59,6 +59,12 @@ $text-color: white;
                 }
 
                 .footer-contact {
+
+                    >p:nth-child(2) {
+                        margin-left: 30px;
+                        margin-top: -5px;
+                    }
+
                     p {
                         display: flex;
                         align-items: center;
@@ -170,6 +176,7 @@ $text-color: white;
         position: absolute;
         display: flex;
         top: 150px;
+        pointer-events: none;
     }
 }
 
@@ -184,6 +191,10 @@ $text-color: white;
             .footer-top {
                 justify-content: flex-start;
                 flex-direction: column;
+
+                .footer-logo-contact {
+                    .footer-contact {}
+                }
 
                 .footer-company-links {
                     margin-top: 30px;

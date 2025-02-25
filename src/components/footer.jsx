@@ -18,8 +18,10 @@ const Footer = () => {
                         <div className="footer-contact">
                             <p><Icon path={mdiMapMarkerOutline} size={1} />
                                 2307 Beverley Rd Brooklyn,
-                                <br />
-                                New York 11226 United States.</p>
+                            </p>
+                            <p>
+                                New York 11226 United States.
+                            </p>
                             <p><Icon path={mdiEmailOutline} size={1} /> industic@abchtys.com</p>
                             <p><Icon path={mdiPhoneOutline} size={1} /> (002) 012658436997</p>
                         </div>
