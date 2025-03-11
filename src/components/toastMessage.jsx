@@ -1,6 +1,6 @@
 import { ToastContainer, toast } from "react-toastify"
 import "react-toastify/dist/ReactToastify.css"
-import Spinner from "./Spinner";
+import Spinner from "./spinner"
 
 const ToastMessage = () => {
   return (
