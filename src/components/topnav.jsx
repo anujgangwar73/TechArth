@@ -47,7 +47,7 @@ const TopNav = () => {
             <div className={`sidebar ${isSidebarOpen ? "open" : ""}`}>
                 <div className="sidebar-header">
                     <div className="sidebar-logo" tabIndex={"-1"}>
-                        <img src={logo} alt="Logo"tabIndex={"-1"} />
+                        <img src={logo} alt="Logo" tabIndex={"-1"} />
                     </div>
                     <div className="close-icon" onClick={() => setIsSidebarOpen(false)}>
                         <Icon path={mdiClose} size={1.5} color={"#2D6C80"} />
@@ -95,7 +95,7 @@ const TopNav = () => {
                     onClick={() => { navigate("/contact") }}
                     className="button button-sm"
                 >
-                    Request A Quote
+                    Got Any Questions
                 </button>
             </div>
         </div>
