@@ -4,7 +4,7 @@ import Icon from '@mdi/react';
 import { mdiArrowRight } from '@mdi/js';
 import emailjs from '@emailjs/browser';
 import { message } from './toastMessage';
-import Spinner from './Spinner';
+import Spinner from './spinner';
 
 const QuoteRequest = () => {
 
