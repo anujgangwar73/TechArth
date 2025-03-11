@@ -100,9 +100,9 @@ const QuoteRequest = () => {
 
         setLoading(true); 
 
-        const serviceID = "service_qjfouvu";
-        const templateID = "template_2s2ggn5";
-        const publicKey = "0CkeTQrz113VmvFlQ";
+        const serviceID = "service_lnzophn";
+        const templateID = "template_4t7cq44";
+        const publicKey = "vh82hX4tIk0ZWJYxE";
 
         emailjs.send(serviceID, templateID, formData, publicKey)
             .then(response => {
