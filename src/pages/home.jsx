@@ -1,4 +1,5 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react';
+import { useNavigate } from "react-router-dom";
 import Icon from '@mdi/react';
 import { mdiArrowRight } from '@mdi/js';
 
@@ -33,6 +34,7 @@ const Home = () => {
     ];
 
     const [activeTab, setActiveTab] = useState("mission");
+    const navigate = useNavigate();
 
     const handleTabClick = (tabKey) => {
         setActiveTab(tabKey);
@@ -57,11 +59,12 @@ const Home = () => {
                         with Innovative Solutions
                     </div>
                     <div className='small-text'>
-                        Providing Cutting-Edge Services and Products
-                        to Drive Your Success
+                        Premier Provider of Sustainable, Data-Driven, and
+                        Intelligent Solutions for Smarter Assets and
+                        Efficient Operations.
                     </div>
                     <div>
-                        <button>
+                        <button onClick={() => { navigate("/services") }}>
                             Our Services
                         </button>
                     </div>
@@ -75,9 +78,13 @@ const Home = () => {
                             Industrial around the world
                         </div>
                         <div className='label-text'>
-                            We solve worldwide industrial every problem,
-                            the heart of global landscape the industry stands multidimensional
-                            electronic typesetting.
+                            TechArth is a trusted provider of cutting-edge business software
+                            and consultancy, delivering scalable and flexible solutions to
+                            tackle today’s challenges while empowering enterprises for future
+                            success. Backed by a team of skilled tech professionals, TechArth
+                            fosters strong customer relationships, offering end-to-end solutions
+                            and services with a single point of accountability—ensuring faster
+                            ROI and cost-effective ownership.
                         </div>
                         <div className='tab-cont'>
                             {tabItems.map(({ key, text }, index) => (
@@ -92,14 +99,22 @@ const Home = () => {
                                 </React.Fragment>
                             ))}
                         </div>
-                        <div className='label-text' style={{ width: "540px" }}>
-                            We strive to provide exceptional [products/services] that
-                            exceed expectations and contribute to the growth and success of our
-                            customers. Our focus is on creating long-lasting value
-                            while maintaining a high standard of excellence.
-                        </div>
+                        {activeTab === "mission" && (
+                            <div className="label-text" style={{ width: "540px" }}>
+                                To design and deliver cost-effective, high-quality, and user-friendly IT solutions
+                                built on global best practices and the latest technologies. TechArth prioritizes
+                                customer needs, ensuring tailored solutions that drive efficiency, innovation, and satisfaction.
+                            </div>
+                        )}
+                        {activeTab === "vision" && (
+                            <div className="label-text" style={{ width: "540px" }}>
+                                To enhance people's lives through innovative and sustainable
+                                digital products and services, delivering cost-effective solutions
+                                that drive progress and efficiency.
+                            </div>
+                        )}
                         <div>
-                            <button>
+                            <button onClick={() => { navigate("/about") }}>
                                 Explore More
                                 <Icon path={mdiArrowRight} size={1} />
                             </button>
@@ -113,20 +128,15 @@ const Home = () => {
                     <div className='text-cont'>
                         <span>What We Do</span>
                         <div className='text'>
-                            The provider for your
-                            manufacturing Industrial solutions!
+                            Your partner in Digital Transformation!
                         </div>
                         <div className='label-text'>
-                            At TechArth, we specialize in providing [products/services] that drive
-                            success and innovation in the industry. Our expert team is committed to
-                            delivering solutions that enhance efficiency, optimize performance,
-                            and provide measurable results for our clients.
-                        </div>
-                        <div>
-                            <button>
-                                Schedule An Appointment
-                                <Icon path={mdiArrowRight} size={1} />
-                            </button>
+                            We offer enterprise application services in partnership with IBM and
+                            Microsoft. Our consulting services include assessments of existing systems,
+                            reporting system audits, and business intelligence reporting using tools
+                            such as BIRT and IBM COGNOS. Additionally, we provide bespoke, tailor-made
+                            solutions on demand, web development services, and IBM Maximo training,
+                            implementation, and integration services.
                         </div>
                     </div>
                     <div className='bg-image-cont'
@@ -143,6 +153,9 @@ const Home = () => {
                 </div>
                 <div>
                     <Card />
+                </div>
+                <div style={{ marginTop: "40px" }}>
+                    <Stats />
                 </div>
                 <div className='why-choose-us-cont'>
                     <div className='big-ellipsis'>
@@ -163,17 +176,17 @@ const Home = () => {
                                 Why Choose Us
                             </div>
                             <div className='content-text'>
-                                Great Experience For
-                                Building Construction
-                                & Renovation
+                                We are a dynamic team of passionate professionals,
+                                fueled by a vision to serve people through innovation
+                                and technology. Inspired by Steve Jobs’ words, “Stay hungry, stay
+                                foolish,” we embrace curiosity, resilience, and
+                                a relentless pursuit of excellence. With this mindset,
+                                we aim to build a lasting legacy through transformative solutions.
                             </div>
                         </div>
                     </div>
                 </div>
-                <div>
-                    <Stats />
-                </div>
-                <div className='partnership-cont'>
+                {/* <div className='partnership-cont'>
                     <div className='image'>
                         <img src={building} />
                     </div>
@@ -187,10 +200,10 @@ const Home = () => {
                     <div className='slick'>
                         <LogoSlider />
                     </div>
-                </div>
-                <div>
+                </div> */}
+                {/* <div>
                     <Blogs />
-                </div>
+                </div> */}
             </div >
         </>
     )

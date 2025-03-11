@@ -59,13 +59,14 @@ const Card = () => {
                         }
                     </div>
                     <div className='card-heading'>
-                        Construction and
-                        Engineering
+                        Enterprise Application Services
                     </div>
                     <div className='card-content-text'>
-                        Lorem ipsum lipsum as it sometimes known dummy text used in laying the century who thought usually begins csometimes used onsectetur.
+                        TechArth's Enterprise Application Services deliver the analytical and
+                        consulting expertise needed to maximize business value from deployed
+                        enterprise systems across diverse markets and industries.
                     </div>
-                    <div className='arrow-icon-ellipsis'>
+                    {/* <div className='arrow-icon-ellipsis'>
                         <svg xmlns="http://www.w3.org/2000/svg" width="97" height="96" viewBox="0 0 97 96" fill="none">
                             <g filter="url(#filter0_d_53_6)">
                                 <circle cx="48.2167" cy="44" r="44" fill="white" />
@@ -94,7 +95,7 @@ const Card = () => {
                                 <path d="M37.4739 13.0607C38.0597 12.4749 38.0597 11.5251 37.4739 10.9393L27.9279 1.3934C27.3421 0.807611 26.3924 0.807611 25.8066 1.3934C25.2208 1.97919 25.2208 2.92893 25.8066 3.51472L34.2919 12L25.8066 20.4853C25.2208 21.0711 25.2208 22.0208 25.8066 22.6066C26.3924 23.1924 27.3421 23.1924 27.9279 22.6066L37.4739 13.0607ZM0.0200195 13.5H36.4132V10.5H0.0200195V13.5Z" fill="#2D6C80" />
                             </svg>
                         }
-                    </div>
+                    </div> */}
                 </div>
                 <div
                     className='card-content-cont'
@@ -169,13 +170,14 @@ const Card = () => {
 
                     </div>
                     <div className='card-heading'>
-                        Automotive and
-                        Manufacturing
+                        Bespoke Industrial Automation Solutions
                     </div>
                     <div className='card-content-text'>
-                        Lorem ipsum lipsum as it sometimes known dummy text used in laying the century who thought usually begins csometimes used onsectetur.
+                        TechArth delivers customized industrial Automation solutions
+                        designed to meet the unique needs of businesses of all sizes,
+                        from small and medium to large enterprises.
                     </div>
-                    <div className='arrow-icon-ellipsis'>
+                    {/* <div className='arrow-icon-ellipsis'>
                         <svg xmlns="http://www.w3.org/2000/svg" width="97" height="96" viewBox="0 0 97 96" fill="none">
                             <g filter="url(#filter0_d_53_6)">
                                 <circle cx="48.2167" cy="44" r="44" fill="white" />
@@ -204,7 +206,7 @@ const Card = () => {
                                 <path d="M37.4739 13.0607C38.0597 12.4749 38.0597 11.5251 37.4739 10.9393L27.9279 1.3934C27.3421 0.807611 26.3924 0.807611 25.8066 1.3934C25.2208 1.97919 25.2208 2.92893 25.8066 3.51472L34.2919 12L25.8066 20.4853C25.2208 21.0711 25.2208 22.0208 25.8066 22.6066C26.3924 23.1924 27.3421 23.1924 27.9279 22.6066L37.4739 13.0607ZM0.0200195 13.5H36.4132V10.5H0.0200195V13.5Z" fill="#2D6C80" />
                             </svg>
                         }
-                    </div>
+                    </div> */}
                 </div>
                 <div
                     className='card-content-cont'
@@ -270,9 +272,11 @@ const Card = () => {
                         Chemicals
                     </div>
                     <div className='card-content-text'>
-                        Lorem ipsum lipsum as it sometimes known dummy text used in laying the century who thought usually begins csometimes used onsectetur.
+                        TechArth conducts system assessments, reviews, and generates
+                        audit reports. We also offer consulting services to help
+                        improve operational processes based on system findings and research.
                     </div>
-                    <div className='arrow-icon-ellipsis'>
+                    {/* <div className='arrow-icon-ellipsis'>
                         <svg xmlns="http://www.w3.org/2000/svg" width="97" height="96" viewBox="0 0 97 96" fill="none">
                             <g filter="url(#filter0_d_53_6)">
                                 <circle cx="48.2167" cy="44" r="44" fill="white" />
@@ -301,7 +305,7 @@ const Card = () => {
                                 <path d="M37.4739 13.0607C38.0597 12.4749 38.0597 11.5251 37.4739 10.9393L27.9279 1.3934C27.3421 0.807611 26.3924 0.807611 25.8066 1.3934C25.2208 1.97919 25.2208 2.92893 25.8066 3.51472L34.2919 12L25.8066 20.4853C25.2208 21.0711 25.2208 22.0208 25.8066 22.6066C26.3924 23.1924 27.3421 23.1924 27.9279 22.6066L37.4739 13.0607ZM0.0200195 13.5H36.4132V10.5H0.0200195V13.5Z" fill="#2D6C80" />
                             </svg>
                         }
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </>

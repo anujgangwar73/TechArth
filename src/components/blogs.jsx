@@ -49,15 +49,12 @@ const Blogs = () => {
                     <div>
                         Latest Blogs
                     </div>
-                    <div>
-                        Doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt.
-                    </div>
-                    <div>
+                    {/* <div>
                         <button>
                             View More
                             <Icon path={mdiArrowRight} size={1} />
                         </button>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </>

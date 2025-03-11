@@ -9,7 +9,7 @@ const Stats = () => {
                         CUSTOMER SATISFIED
                     </span>
                     <span>
-                        97%
+                        100%
                     </span>
                 </div>
                 <div>
@@ -17,15 +17,7 @@ const Stats = () => {
                         EMPLOYED WITH US
                     </span>
                     <span>
-                        300K
-                    </span>
-                </div>
-                <div>
-                    <span>
-                        PRODUCT CREATED
-                    </span>
-                    <span>
-                        10,0000
+                        5 - 10
                     </span>
                 </div>
             </div>

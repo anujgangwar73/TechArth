@@ -40,9 +40,9 @@ const About = () => {
           <img src={about_us_illutration} width={"320px"} height={"250px"} />
         </div>
       </div>
-      <div className='slick'>
+      {/* <div className='slick'>
         <LogoSlider />
-      </div>
+      </div> */}
       <div className='work-details-img-cont'>
         <div className='work-details-cont'>
           <div className='about-bg-text'>
@@ -53,7 +53,14 @@ const About = () => {
             Industrial around the world
           </div>
           <div className='content-text'>
-            We solve worldwide industrial every problem, the heart of global landscape the industry stands multidimensional electronic typesetting.
+            TechArth is a trusted provider of cutting-edge business software
+            and consultancy, delivering scalable and flexible solutions to
+            tackle today’s challenges while empowering enterprises for future
+            success. Backed by a team of skilled tech professionals, TechArth
+            fosters strong customer relationships, offering end-to-end solutions
+            and services with a single point of accountability—ensuring faster ROI
+            and cost-effective ownership.
+            At the core of TechArth's mission are three key pillars.
           </div>
           <div className='service-highlights-icons-cont'>
             <div>
@@ -63,9 +70,9 @@ const About = () => {
               <div>
                 Quality
               </div>
-              <div>
+              {/* <div>
                 Following the quality of our service thus having gained trust of our many clients.
-              </div>
+              </div> */}
             </div>
           </div>
           <div className='service-highlights-icons-cont'>
@@ -76,8 +83,9 @@ const About = () => {
               <div>
                 Reliability
               </div>
-              <div>
-                We have established a corporate mandate to maintain strong core values that truly reflect.              </div>
+              {/* <div>
+                We have established a corporate mandate to maintain strong core values that truly reflect.
+              </div> */}
             </div>
           </div>
           <div className='service-highlights-icons-cont'>
@@ -88,9 +96,9 @@ const About = () => {
               <div>
                 Innovation
               </div>
-              <div>
+              {/* <div>
                 Our company develops a unique dynamically and keeps in step with the times.
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
@@ -103,9 +111,9 @@ const About = () => {
           </div>
         </div>
       </div>
-      <div>
+      {/* <div>
         <Stats />
-      </div>
+      </div> */}
       <div className='expertise-details-img-cont'>
         <div className='img-cont'>
           <img src={Layer_1} height={"300px"} width={"140%"} />
@@ -118,19 +126,20 @@ const About = () => {
             Team Members
           </div>
           <div>
-            While mirth large of on front.
-            Ye he greater related adapted proceed entered an.
-            Through it examine express promise no.
-            Past add size game cold girl off how old
+            We have a highly skilled team of professionals with diverse
+            industrial experience, having worked in core sectors such
+            as Oil & Gas, Manufacturing, and Transportation, providing
+            specialized industrial automation services. The combined
+            experience of our professionals exceeds 100 years.
           </div>
         </div>
       </div>
-      <div>
+      {/* <div>
         <QuoteRequest />
-      </div>
-      <div style={{ marginTop: "30px" }}>
+      </div> */}
+      {/* <div style={{ marginTop: "30px" }}>
         <Blogs />
-      </div>
+      </div> */}
     </div>
   )
 }

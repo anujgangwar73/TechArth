@@ -1,9 +1,9 @@
 .stats {
     background: #2D6C80;
     display: flex;
-    height: 100px;
+    height: 40px;
     flex-shrink: 0;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 40px;
 
     div {
@@ -35,9 +35,11 @@
 @media (max-width: 600px) {
     .stats {
         padding: 20px;
+        height: 100%;
 
         div {
             width: 100%;
+            gap: 15px;
 
             >span:first-child {
                 font-size: 16px;

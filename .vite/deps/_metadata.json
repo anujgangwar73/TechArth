@@ -1,0 +1,61 @@
+{
+  "hash": "3d39e169",
+  "configHash": "8f5f2f27",
+  "lockfileHash": "2b49126c",
+  "browserHash": "6a07bc23",
+  "optimized": {
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "497962a9",
+      "needsInterop": true
+    },
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "2686e2ae",
+      "needsInterop": true
+    },
+    "react-router-dom": {
+      "src": "../../node_modules/react-router-dom/dist/index.js",
+      "file": "react-router-dom.js",
+      "fileHash": "326d5916",
+      "needsInterop": false
+    },
+    "@mdi/js": {
+      "src": "../../node_modules/@mdi/js/mdi.js",
+      "file": "@mdi_js.js",
+      "fileHash": "b6a10bd0",
+      "needsInterop": false
+    },
+    "@mdi/react": {
+      "src": "../../node_modules/@mdi/react/Icon.js",
+      "file": "@mdi_react.js",
+      "fileHash": "2a5ccf57",
+      "needsInterop": true
+    },
+    "react-simple-image-slider": {
+      "src": "../../node_modules/react-simple-image-slider/dist/index.js",
+      "file": "react-simple-image-slider.js",
+      "fileHash": "837967c8",
+      "needsInterop": true
+    },
+    "react-slick": {
+      "src": "../../node_modules/react-slick/lib/index.js",
+      "file": "react-slick.js",
+      "fileHash": "f59ab513",
+      "needsInterop": true
+    }
+  },
+  "chunks": {
+    "chunk-E5ODL3YF": {
+      "file": "chunk-E5ODL3YF.js"
+    },
+    "chunk-65KY755N": {
+      "file": "chunk-65KY755N.js"
+    },
+    "chunk-V4OQ3NZ2": {
+      "file": "chunk-V4OQ3NZ2.js"
+    }
+  }
+}

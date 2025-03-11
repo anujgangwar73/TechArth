@@ -1,0 +1,35 @@
+.spinner {
+    svg {
+      vertical-align: middle;
+      g {
+        transform-origin: center;
+        animation: rotate-anim 2s linear infinite;
+        circle {
+          stroke-linecap: round;
+          animation: stroke-anim 1.5s ease-in-out infinite;
+        }
+      }
+    }
+  }
+  
+  @keyframes rotate-anim {
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  @keyframes stroke-anim {
+    0% {
+      stroke-dasharray: 0 150;
+      stroke-dashoffset: 0;
+    }
+    47.5% {
+      stroke-dasharray: 42 150;
+      stroke-dashoffset: -16;
+    }
+    95%, 100% {
+      stroke-dasharray: 42 150;
+      stroke-dashoffset: -59;
+    }
+  }
+  

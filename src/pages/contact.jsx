@@ -27,8 +27,11 @@ const Contact = () => {
             Get in Touch!
           </div>
           <div className='content-text'>
-            Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
-            there live the blind texts. Separated they live in Bookmarksgrove right
+            We’re here to help you with any inquiries, feedback, or
+            support you may need. Whether you're looking for more
+            information about our services, need assistance, or want
+            to explore potential collaborations, don’t hesitate to reach out.
+            Our team is ready and eager to assist you!”
           </div>
         </div>
         <div className='contact-details-cont'>
@@ -41,11 +44,8 @@ const Contact = () => {
                 <div>
                   Email Address
                 </div>
-                <div>
-                  info@techarth.com
-                </div>
-                <div>
-                  career@techarth.in
+                <div style={{ marginRight: "10px" }}>
+                  letstalk@techarthco.com
                 </div>
               </div>
             </div>
@@ -62,7 +62,7 @@ const Contact = () => {
                   Phone Number
                 </div>
                 <div>
-                  +65 (254) 896-4562
+                  +91 9810156429
                 </div>
               </div>
             </div>
@@ -79,10 +79,7 @@ const Contact = () => {
                   Head Office
                 </div>
                 <div>
-                  14/A, Queen Street City
-                </div>
-                <div>
-                  Town New York, US
+                  Nirvana Country, Gurugram, 122018
                 </div>
               </div>
             </div>

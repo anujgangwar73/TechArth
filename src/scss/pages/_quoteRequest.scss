@@ -1,6 +1,7 @@
 .quote-request-cont {
     display: flex;
     background: rgba(245, 245, 245, 0.46);
+    height: 500px;
 
     .quote-form-cont {
         padding: 40px;
@@ -28,24 +29,44 @@
             line-height: normal;
         }
 
-        .form-cont {
+        .form-wrapper {
             display: flex;
             flex-direction: column;
-            gap: 30px;
+            gap: 15px;
             margin-top: 20px;
+            position: relative;
 
-            .field-container {
+            .form-cont {
                 display: flex;
-                gap: 10px;
+                flex-wrap: wrap;
+                gap: 15px;
+                justify-content: space-between;
 
-                input {
-                    border-radius: 5px;
-                    background: #D9D9D9;
-                    flex: 1;
-                    height: 40px;
-                    flex-shrink: 0;
-                    border: none;
-                    padding-left: 17px;
+                .field-container {
+                    display: flex;
+                    flex-direction: column;
+                    width: calc(50% - 8px);
+
+                    input {
+                        height: 45px;
+                        border-radius: 5px;
+                        background: #D9D9D9;
+                        border: none;
+                        padding: 0 15px;
+                        font-size: 16px;
+                    }
+
+                    .error {
+                        color: #E82727;
+                        font-size: 13px;
+                        margin: 6px 0 0 4px;
+                        font-weight: 500;
+                        white-space: initial;
+                    }
+
+                    &:nth-child(5) {
+                        width: 100%;
+                    }
                 }
             }
         }
@@ -54,6 +75,7 @@
     .img-cont {
         margin-left: auto;
         position: relative;
+        width: 35%;
 
         img {
             width: 100%;
@@ -78,6 +100,8 @@
     .quote-request-cont {
         display: flex;
         background: rgba(245, 245, 245, 0.46);
+        padding: 10px 0 10px 0;
+        height: 100%;
 
         .quote-form-cont {
             padding: 20px;
@@ -93,14 +117,21 @@
                 width: 100%;
             }
 
-            .form-cont {
-                width: 100%;
-                flex-wrap: wrap;
+            .form-wrapper {
+                display: flex;
+                flex-direction: column;
                 gap: 15px;
+                margin-top: 20px;
 
-                .field-container {
-                    flex-wrap: wrap;
+                .form-cont {
+                    flex-wrap: nowrap;
+                    flex-direction: column;
                     gap: 15px;
+
+                    .field-container {
+                        flex-wrap: wrap;
+                        width: 100%;
+                    }
                 }
             }
         }

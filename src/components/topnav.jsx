@@ -2,9 +2,10 @@ import React, { useState, useEffect } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
 import logo from "../assets/logo.png";
 import Icon from "@mdi/react";
-import { mdiChevronDown, mdiMenu, mdiClose, mdiMenuOpen, mdiMenuClose } from "@mdi/js";
+import { mdiChevronDown, mdiClose, mdiMenuOpen, mdiMenuClose } from "@mdi/js";
 
 const TopNav = () => {
+
     const navigate = useNavigate();
     const location = useLocation();
     const [isSidebarOpen, setIsSidebarOpen] = useState(false);
@@ -45,8 +46,8 @@ const TopNav = () => {
             {/* Sidebar for Mobile View */}
             <div className={`sidebar ${isSidebarOpen ? "open" : ""}`}>
                 <div className="sidebar-header">
-                    <div className="sidebar-logo">
-                        <img src={logo} alt="Logo" />
+                    <div className="sidebar-logo" tabIndex={"-1"}>
+                        <img src={logo} alt="Logo"tabIndex={"-1"} />
                     </div>
                     <div className="close-icon" onClick={() => setIsSidebarOpen(false)}>
                         <Icon path={mdiClose} size={1.5} color={"#2D6C80"} />
@@ -65,7 +66,10 @@ const TopNav = () => {
                         </div>
                     ))}
                     {/* Button in Sidebar */}
-                    <button className="button">
+                    <button
+                        onClick={() => { navigate("/contact") }}
+                        className="button"
+                    >
                         Request A Quote
                     </button>
                 </div>
@@ -87,7 +91,12 @@ const TopNav = () => {
 
             {/* Desktop Button */}
             <div className="nav-button">
-                <button className="button button-sm">Request A Quote</button>
+                <button
+                    onClick={() => { navigate("/contact") }}
+                    className="button button-sm"
+                >
+                    Request A Quote
+                </button>
             </div>
         </div>
     );

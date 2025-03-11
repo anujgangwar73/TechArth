@@ -1,0 +1,45 @@
+$error: #E82727;
+$success: #198754;
+$text-black: #343434;
+
+:root {
+	--toastify-z-index: 100002;
+	--toastify-color-error: #{$error};
+	--toastify-color-success: #{$success};
+	--toastify-icon-color-error: #{$error};
+	--toastify-icon-color-success: #{$success};
+}
+
+.Toastify {
+	user-select: none;
+
+	.Toastify__toast {
+		border-radius: 6px;
+		padding: 8px 8px 18px;
+	}
+
+	.toast-inner-text {
+		color: $text-black;
+		font-size: 15px;
+		line-height: 18px;
+		font-weight: 500;
+		font-family: 'Poppins', sans-serif;
+	}
+
+	.Toastify__progress-bar--wrp {
+		bottom: 6px;
+		left: 6px;
+		width: calc(100% - 12px);
+		border-radius: 6px;
+		height: 6px;
+	}
+
+	.Toastify__progress-bar {
+		opacity: 1;
+	}
+
+	button {
+		box-shadow: none;
+		align-items: start;
+	}
+}
